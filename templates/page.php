@@ -8,7 +8,8 @@ return"<!DOCTYPE html>
 	$pageData->embeddedStyle
 	</head>
 	<body>
-	$pageData->content
+	$pageData->content\
+	$pageData->scriptElements
 	</body>
 	</html>";
 	?>

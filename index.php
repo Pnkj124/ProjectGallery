@@ -4,6 +4,8 @@
 
 	include_once "classes/Page_Data.class.php";
 	$pageData = new Page_Data();
+
+	$pageData->addScript("js/lightbox.js");
 	$pageData->title="Dynamic Image Gallery";
 
 	
