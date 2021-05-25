@@ -9,9 +9,10 @@
 	$pageData->title="Dynamic Image Gallery";
 
 	
-	$pageData->content= include_once "views/navigation.php";
 	$pageData->addCSS('css/layout.css');
 	$pageData->addCSS('css/navigation.css');
+	$pageData->content= include_once "views/navigation.php";
+
 
 	$userClicked = isset($_GET['page']);
 	if($userClicked){

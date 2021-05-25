@@ -14,7 +14,7 @@
             $fileInfo = new Finfo(FILEINFO_MIME_TYPE);
             $mimeType = $fileInfo->file($src);
             if($mimeType === 'image/jpeg'){
-                $out .= "<li><img src='$src' width='200' height='auto'/></li>";
+                $out .= "<li><img src='$src' /></li>";
             }
             $filesInFolder->next();
             }
