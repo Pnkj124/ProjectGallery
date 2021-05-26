@@ -1,6 +1,6 @@
 h1{color:red;}
 
-/* div#overlay{
+div#overlay{
     position: absolute;
     width: 100%;
     height:100%;
@@ -8,4 +8,15 @@ h1{color:red;}
     left: 0px;
     background: black;
     opacity: 0.85;
-} */
+}
+
+div#overlay.hidden, img#big-image.hidden{
+opacity:0;
+left:-200%;
+}
+
+li.lightbox img{height:100px;}
+li.lightbox{
+    display: inline-block;
+    margin:10px;
+}
